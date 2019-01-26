@@ -1,17 +1,23 @@
 *{
     box-sizing: border-box;
 }
+.menu{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: auto;
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
+    margin: 40px;
+    padding: auto;
+    font-size: 2em;
+
+}
 .wrapper{
     display: grid;
     grid-template-columns: 70% 25%;
     grid-gap: 2%;
 }
 
-.menu {
-    border-top: 3px solid #333;
-    border-bottom: 3px solid #333;
-    margin: 40px;
-} 
 
 ul {
     list-style-type: none;
@@ -37,7 +43,7 @@ a {
     padding-left: 10px; 
 }
 .col-two{
-    font-size: 9px;
+    
     border-left: 3px solid #333;
     margin-left:10px;
     margin-right: 0px;
@@ -73,3 +79,7 @@ h1,h2{
     text-align: center;
     padding-top: 1%;
     margin: 0%;
+}
+h3{
+    margin: 3px;
+}
