@@ -1,0 +1,5 @@
+img{
+    width: 30%; /* her bir img elementi sayfanın yüzde 30'u kadar olsun */
+    float: left;   /*elementleri yanyana koyar */
+    margin: 1.66%; /* yanyana durup sayfanın %90'ını kaplayan img etiketinden kalan %10'un 6 ya bölünmesinden ötürü. */
+}
