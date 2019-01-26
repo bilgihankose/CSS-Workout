@@ -1,0 +1,46 @@
+.content{
+ margin: 10px auto;  /* aşağıdan ve yukarıdan 10'a pixel ve sağdan ve soldan sayfaya göre auto  */
+ width: 70%; /*sayfanın 70% gibi davranır*/
+ border: 20px solid #bdc3e7;
+ font-family: 'Source Sans Pro', sans-serif;
+
+}
+.date {
+   margin-top: 2%;
+   margin-left: 5%;
+   margin-right: auto;
+   margin-bottom: 0;
+    letter-spacing: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #3498db;
+}
+h2{
+    color: #2c3e50;
+    margin: 2% 5%;
+    text-align: left;
+}
+p{
+    color: gray;
+    margin: 2% 5%;
+    text-align: left;
+}
+hr{
+        border-top: 1px solid gray;
+        margin: 2% 5%;
+      }
+
+.focus{
+    border-left: 5px solid #bdc3e7;
+    margin: 2% 5%;
+    
+
+}
+#detail{
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
